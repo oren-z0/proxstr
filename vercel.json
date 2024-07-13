@@ -1,7 +1,11 @@
 {
   "rewrites": [
     {
-      "source": ":match*",
+      "source": "/:match*",
+      "destination": "/api/edge.ts"
+    },
+    {
+      "source": "/",
       "destination": "/api/edge.ts"
     }
   ]
