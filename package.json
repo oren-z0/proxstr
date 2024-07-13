@@ -1,9 +1,16 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/oren-z0/proxstr.git",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "devDependencies": {
-    "@types/node": "^17.0.42",
-    "typescript": "^4.7.3"
+    "@types/node": "^20.14.10",
+    "@vercel/node": "^3.2.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "nostr-tools": "^2.7.1"
   }
 }
